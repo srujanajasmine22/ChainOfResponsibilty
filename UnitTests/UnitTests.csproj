@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TestPlatform.Portable" Version="17.11.0" />
+    <PackageReference Include="Microsoft.VisualStudio.TestPlatform" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Credentials\Credentials.csproj" />
+    <ProjectReference Include="..\MessageLog\MessageLog.csproj" />
+    <ProjectReference Include="..\Program\Program.csproj" />
+    <ProjectReference Include="..\RequestHandler\RequestHandler.csproj" />
+    <ProjectReference Include="..\RequestType\RequestType.csproj" />
+    <ProjectReference Include="..\UI\UI.csproj" />
+  </ItemGroup>
+
+</Project>
