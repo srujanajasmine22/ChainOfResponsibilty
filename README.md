@@ -20,6 +20,9 @@ Each user has a position and password corresponding to them.
 
 When user logs in according to their position certain choices will be displayed
 
+![Class Diagram]()
+
+
 If user position is in requester then they have 2 choices
 
 	1. Send requests for approvers
