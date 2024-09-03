@@ -31,7 +31,7 @@ If user position is in approvers then they have 2 choices
     1.View received requests and approve or reject them 
 
     2. View their all received requests from the message log
-
+![Class diagram]Screenshot_20240903_224549_Adobe Scan.jpg)
 There are 3 types of requests 
 
 EventIdeaRequest -  which is sent to only student head of approvers
@@ -53,3 +53,4 @@ We use chain of responsibility in handling the requests to different approvers.
 We are also saving the requests in a json file to retreive the data when needed.
 
 Here UserInterface is Client , RequestHandlers are Handler for different requests.
+
