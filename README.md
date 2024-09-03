@@ -20,7 +20,7 @@ Each user has a position and password corresponding to them.
 
 When user logs in according to their position certain choices will be displayed
 
-![Class Diagram]()
+![Class Diagram](https://github.com/srujanajasmine22/ChainOfResponsibilty/blob/master/Screenshot_20240903_224549_Adobe%20Scan.jpg)
 
 
 If user position is in requester then they have 2 choices
